@@ -47,12 +47,12 @@ function CallLayoutButtons({ layout, setLayout }: CallLayoutButtonsProps) {
       </button>
       <button onClick={() => setLayout("speaker-horiz")}>
         <BetweenHorizonalEnd
-          className={layout !== "speaker-vert" ? "text-gray-400" : ""}
+          className={layout !== "speaker-horiz" ? "text-gray-400" : ""}
         />
       </button>
       <button onClick={() => setLayout("grid")}>
         <LayoutGrid
-          className={layout !== "speaker-vert" ? "text-gray-400" : ""}
+          className={layout !== "grid" ? "text-gray-400" : ""}
         />
       </button>
     </div>
