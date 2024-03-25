@@ -12,7 +12,7 @@ export default function EndCallButton() {
     call.state.createdBy &&
     localParticipant.userId === call.state.createdBy.id;
 
-  if (participantIsChannelOwner) {
+  if (!participantIsChannelOwner) {
     return null;
   }
 

@@ -9,7 +9,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zjuu metting app",
+  title: "Meetings 4 Us",
   description: "A video calling app built with Next.js and Stream",
 };
 

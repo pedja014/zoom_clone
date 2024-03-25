@@ -239,12 +239,11 @@ function MeetingLink({ call }: MeetingLinkProps) {
   return (
     <div className="flex flex-col items-center gap-3 text-center">
       <div className="flex items-center gap-3">
-        <span>
-          Invitation link:{" "}
+        <Button title="Join meeting">
           <Link href={meetingLink} className="font-medium">
-            {meetingLink}
+            Join meeting
           </Link>
-        </span>
+        </Button>
         <button
           title="Copy invitation link"
           onClick={() => {
